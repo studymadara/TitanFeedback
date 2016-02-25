@@ -56,6 +56,9 @@ public class MainActivity extends AppCompatActivity {
                             dialog.dismiss();
                             a++;
                             tv3.setText(a.toString());
+                            et1.setText("");
+                            rb1.setRating(0.0f);
+                            b=0;
                         }
                     }).show();
                 }
